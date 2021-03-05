@@ -23,6 +23,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.no-margin {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -50,14 +58,25 @@ body {
 .location {
     margin: 0 auto;
     background-color: grey;
-    padding: 20px;
+    padding: 18px;
+}
+
+.title-box {
+    background-color: bisque;
 }
 
 .title {
-    width: 70%;
-    font-size: 30px;
-    display: flex;
-    text-align: center
+    width: 65%;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sub-title {
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5%;
 }
 
 .button-explorer {
@@ -66,5 +85,90 @@ body {
     background: rgb(255,121,218);
     background: linear-gradient(135deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     border-radius: 30px;
-    margin: 0 auto;
+    margin: 5% auto;
+    text-align: center;
 }
+
+.fonctionnement {
+    display: flex;
+}
+
+.fonct-box {
+    background-color: blanchedalmond;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.interior-fonct {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    margin-left: 10px;
+    height: 100%;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    height: 200px;
+}
+
+.logo-footer {
+    filter: brightness(0) invert(1);
+    margin-top: 15px;
+    width: 30%;
+    margin-left: 5%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    height: 70%;
+    width: 90%;
+}
+
+.rest-box {
+    border: 2px solid black;
+    margin: 10px auto;
+    height: 300px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.palette-box {
+    background-image: url("./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    height: 75%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box-bottom-rest {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.box-text-rest {
+    width: 70%;
+    margin-left: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart {
+    width: 20%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+

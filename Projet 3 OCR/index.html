@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/04ed5bdc1f.js" crossorigin="anonymous"></script>
     <title>Document</title>
@@ -22,51 +22,89 @@
         <div class="logo-loc"><i class="fas fa-map-marker-alt"></i></div>
         <div>Paris, Belleville</div>
     </div>
-    <div class="center flex-column">
+    <div class="center flex-column title-box">
         <h1 class="margin-auto title">Réservez le menu qui vous convient</h1>
-        <h2>Découvrez des restaurants d'exception, séléctionnés par nos soins.</h2>
+        <h2 class="sub-title margin-auto">Découvrez des restaurants d'exception, séléctionnés par nos soins.</h2>
         <div class="button-explorer">Explorer nos restaurants</div>
     </div>
-    <div class="fonctionnement">
+    <div class="fonctionnement center flex-column">
+        <p class="bold">Fonctionnement</p>
         <div class="fonct-box flex-row">
-            <div class="fonct-icon"><i class="fas fa-mobile-alt"></i></div>
-            <div class="fonct-text">Choisissez un restaurant</div>
+            <p>1</p>
+            <div class="interior-fonct flex-row">
+                <div class="fonct-icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="fonct-text bold">Choisissez un restaurant</div>
+            </div>
         </div>
         <div class="fonct-box flex-row">
-            <div class="fonct-icon"><i class="fas fa-list-ul"></i></div>
-            <div class="fonct-text">Composez votre menu</div>
+            <p>2</p>
+            <div class="interior-fonct flex-row">
+                <div class="fonct-icon"><i class="fas fa-list-ul"></i></div>
+                <div class="fonct-text bold">Composez votre menu</div>
+            </div>
         </div>
         <div class="fonct-box flex-row">
-            <div class="fonct-icon"><i class="fas fa-store"></i></div>
-            <div class="fonct-text">Dégustez au restaurant</div>
+            <p>3</p>
+            <div class="interior-fonct flex-row">
+                <div class="fonct-icon"><i class="fas fa-store"></i></div>
+                <div class="fonct-text bold">Dégustez au restaurant</div>
+            </div>
         </div>
+
+    </div>
     </div>
     <div class="restaurants">
+        <p class="bold">Restaurants</p>
         <div class="rest-box">
-            <p>La palette du goût</p>
-            <p>Ménilmontant</p>
+            <div class="palette-box"></div>
+            <div class="box-bottom-rest flex-row">
+                <div class="box-text-rest flex-column">
+                    <p class="no-margin bold">La palette du goût</p>
+                    <p class="no-margin">Ménilmontant</p>
+                </div>
+                <div class="heart"><i class="far fa-heart"></i></div>
+            </div>
         </div>
         <div class="rest-box">
-            <p>La note enchantée</p>
-            <p>Charonne</p>
+            <div class="palette-box"></div>
+            <div class="box-bottom-rest flex-row">
+                <div class="box-text-rest flex-column">
+                    <p class="no-margin bold">La note enchantée</p>
+                    <p class="no-margin">Charonne</p>
+                </div>
+                <div class="heart"><i class="far fa-heart"></i></div>
+            </div>
         </div>
         <div class="rest-box">
-            <p>A la française</p>
-            <p>Cité Rouge</p>
+            <div class="palette-box"></div>
+            <div class="box-bottom-rest flex-row">
+                <div class="box-text-rest flex-column">
+                    <p class="no-margin bold">A la francaise</p>
+                    <p class="no-margin">Cité Rouge</p>
+                </div>
+                <div class="heart"><i class="far fa-heart"></i></div>
+            </div>
         </div>
         <div class="rest-box">
-            <p>Le délice des sens</p>
-            <p>Folie-Méricourt</p>
-        </div>
-    </div>
+            <div class="palette-box"></div>
+            <div class="box-bottom-rest flex-row">
+                <div class="box-text-rest flex-column">
+                    <p class="no-margin bold">Le délice des sens</p>
+                    <p class="no-margin">Folie-Méricourt</p>
+                </div>
+                <div class="heart"><i class="far fa-heart"></i></div>
+            </div>
+            </div>
 </body>
 
 <footer>
-    <div class="logo-footer">LOGO FOOTER</div>
-    <div class="footer-text"><i class="fas fa-utensils"></i> Proposer un restaurant</div>
-    <div class="footer-text"><i class="fas fa-hands-helping"></i> Devenir partenaire</div>
-    <p>Mentions légales</p>
-    <p>Contact</p>
+    <img class="logo-footer" src="../Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="">
+    <div class="footer-box flex-column margin-auto">
+        <div class="footer-text"><i class="fas fa-utensils"></i> Proposer un restaurant</div>
+        <div class="footer-text"><i class="fas fa-hands-helping"></i> Devenir partenaire</div>
+        <p class="no-margin">Mentions légales</p>
+        <p class="no-margin">Contact</p>
+    </div>
 </footer>
 
 </html>
