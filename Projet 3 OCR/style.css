@@ -1,0 +1,70 @@
+/* 
+primary: #9356DC
+secondary: #FF79DA
+third:#99E2D0 
+*/
+
+.shrikhand {
+    font-family: 'Shrikhand', cursive;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 100%;
+    width: 50%;
+}
+
+.location {
+    margin: 0 auto;
+    background-color: grey;
+    padding: 20px;
+}
+
+.title {
+    width: 70%;
+    font-size: 30px;
+    display: flex;
+    text-align: center
+}
+
+.button-explorer {
+    width: 50%;
+    padding: 15px;
+    background: rgb(255,121,218);
+    background: linear-gradient(135deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    border-radius: 30px;
+    margin: 0 auto;
+}
