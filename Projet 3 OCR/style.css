@@ -216,14 +216,12 @@ footer {
 .box-meal {
     margin: 10px auto;
     background-color: aliceblue;
-    border: 2px solid red;
     border-radius: 20px;
     height: 60px;
     width: 90%;
     display: flex;
     justify-content: space-between;
     height: 100%;
-    box-shadow: inset 0 0 0 0 #f9e506;
     transition: ease-out 0.3s;
     outline:none;
 }
@@ -238,3 +236,61 @@ footer {
     overflow: hidden;
     white-space: nowrap;
 }
+
+.meal-part {
+    width: 100%;
+}
+
+.check {
+    width: 0%;
+    background-color: #99E2D0 ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-meal:hover > .meal-part {
+    width: 75%;
+    transition: 1s;
+ }
+
+.box-meal:hover > .check {
+    width: 25%;
+    transition: 1s;
+}
+
+.logo-spin {
+    display: none;
+    font-size: 25px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.box-meal:hover > .check > .logo-spin {
+    color: green;
+    display: flex;
+    transition: 1s;
+    animation-name: spin, appear;
+    transform-origin: center;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
