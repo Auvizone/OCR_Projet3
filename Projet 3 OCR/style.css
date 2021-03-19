@@ -284,6 +284,26 @@ footer {
     }
 }
 
+.test1 {
+    animation-name: appear;
+    animation-duration: 1s;
+}
+
+.test2 {
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.test3 {
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+
 .box-meal:hover > .check > .logo-spin {
     color: green;
     display: flex;
