@@ -7,6 +7,10 @@ body {
     margin: 10px;
 }
 
+svg:hover {
+    fill: red;
+}
+
 .header {
     width: 100%;
     display: flex;
@@ -20,6 +24,11 @@ body {
 .flex-row {
     display: flex;
     flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .fas {
@@ -230,21 +239,70 @@ body {
 .box-menu {
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
 }
 
 .box-choice {
     width: 50%;
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
 }
 
-.box-meal {
-    border: 2px solid red;
+.box-repas {
     background-color: white;
     border-radius: 20px;
+    height: 25%;
     width: 70%;
     margin: 10px auto;
 }
 
+.txt-repas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box-price {
+    line-height: 0px;
+}
+
+.titre-menu {
+    margin: 0 auto;
+}
+
+.btn-commander {
+    margin: 10px auto;
+    width: 175px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: rgb(255,121,218);
+    background: linear-gradient(135deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    margin-bottom: 15px;
+    box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
+    -webkit-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
+}
+
+
+
+
+@media (max-width: 900px) {
+    .box-menu {
+        flex-wrap: wrap;
+    }
+
+    .box-choice {
+        width: 100%;
+    }
+
+    .box-repas {
+        width: 90%;
+    }
+
+    .titre-menu {
+        margin: 0 5%;
+    }
+}
