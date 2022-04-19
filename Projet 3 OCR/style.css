@@ -1,5 +1,33 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Shrikhand;
+    src: url(./Fonts/Shrikhand/Shrikhand-Regular.ttf);
+}
+
+.shrikhand {
+    font-family: Shrikhand;
+}
+
 body {
     margin: 0;
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .logo {
@@ -63,7 +91,7 @@ svg:hover {
 }
 
 .btn-explorer {
-    margin: 0 auto;
+    margin: 25px auto;
     width: 250px;
     padding: 15px;
     border-radius: 30px;
@@ -71,7 +99,7 @@ svg:hover {
     color: white;
     background: rgb(255,121,218);
     background: linear-gradient(135deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
     -webkit-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
@@ -87,10 +115,14 @@ svg:hover {
 .box-choix {
     display:flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .choix {
-    width: 250px;
+    width: 20%;
+    min-width: 300px;
     display: flex;
     flex-direction: row;
     background-color: #f1f1f1;
@@ -106,7 +138,7 @@ svg:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 80%;
+    width: 70%;
 
 }
 
@@ -115,6 +147,7 @@ svg:hover {
     border-radius: 30px;
     background-color: #9356DC ;
     color: white;
+    margin-left: -12px;
 }
 
 .txt-fonctionnement {
@@ -166,6 +199,7 @@ svg:hover {
 
 .txt-restaurant {
     margin: 0 auto;
+    margin-top: 15px;
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -196,6 +230,12 @@ svg:hover {
 
 .box-footer {
     overflow: hidden;
+    margin-left: 10%;
+}
+
+.icon {
+    margin: auto 0;
+    margin-right: 10px;
 }
 
 @media (max-width: 900px) {
@@ -208,7 +248,13 @@ svg:hover {
     }
 
     .box-choix {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    
+    .choix { 
+        width: 20%;
     }
 }
 
@@ -218,7 +264,10 @@ svg:hover {
 /* PAGE RESTAURANTS */
 
 .body-restaurant {
-    background-color: #aaaaaa;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bckg-image {
@@ -234,6 +283,7 @@ svg:hover {
     width: 10%;
     display: flex;
     justify-content: space-around;
+    width: 20%;
 }
 
 .box-menu {
@@ -250,9 +300,12 @@ svg:hover {
 .box-repas {
     background-color: white;
     border-radius: 20px;
-    height: 25%;
+    height: 60px;
     width: 70%;
     margin: 10px auto;
+    box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
+    -webkit-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
 }
 
 .txt-repas {
@@ -260,19 +313,37 @@ svg:hover {
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
-    margin: 0 auto;
+    padding-left: 15px;
+    overflow: hidden;
 }
 
-.box-price {
-    line-height: 0px;
+.box-description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.text-description {
+    margin: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: auto;
 }
 
 .titre-menu {
-    margin: 0 auto;
+    margin: 0;
+}
+
+.top-desc {
+    margin-top: 15px;
 }
 
 .btn-commander {
-    margin: 10px auto;
+    margin: 25px auto;
     width: 175px;
     padding: 15px;
     border-radius: 30px;
@@ -280,13 +351,67 @@ svg:hover {
     color: white;
     background: rgb(255,121,218);
     background: linear-gradient(135deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
     -webkit-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
 }
 
+.price {
+    text-align: center;
+    margin: auto 0;
+    justify-self: end;
+    margin-bottom: 2% !important;
+}
 
+.heart {
+    font-size: 28px;
+}
+
+.underline {
+    width: 35px;
+    border: 2px solid #99E2D0;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.green {
+    background-color: #99E2D0;
+    width: 0%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-menu {
+    width: 100%;
+}
+
+.green-icon {
+    opacity: 0;
+    color: white;
+}
+
+.box-repas:hover > .green > .green-icon {
+    opacity: 1;
+    display: flex;
+    transition: 0.5s ease-in;
+    transform: rotate(360deg);
+}
+
+.box-repas:hover > .green {
+    transition: 0.5s ease-in;
+    width: 20%;
+}
+
+.box-repas:hover > .text-description {
+    transition: 0.5s ease-in;
+    width: 50%;
+}
 
 
 @media (max-width: 900px) {
@@ -304,5 +429,14 @@ svg:hover {
 
     .titre-menu {
         margin: 0 5%;
+        width: 15%;
+    }
+
+    .nom-restaurant {
+        width: 100%;
+    }
+
+    .top-desc {
+        margin-top: 0px;
     }
 }
