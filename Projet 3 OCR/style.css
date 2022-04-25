@@ -18,11 +18,12 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 28px;
 }
 
 h2 {
     font-size: 20px;
+    font-weight: lighter;
 }
 
 a {
@@ -32,7 +33,7 @@ a {
 
 .logo {
     width: 15%;
-    margin: 10px;
+    margin: 20px auto;
 }
 
 svg:hover {
@@ -95,6 +96,7 @@ svg:hover {
     width: 250px;
     padding: 15px;
     border-radius: 30px;
+    font-size: 18px;
     border: none;
     color: white;
     background: rgb(255,121,218);
@@ -110,6 +112,7 @@ svg:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 0 5%;
 }
 
 .box-choix {
@@ -118,10 +121,11 @@ svg:hover {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .choix {
-    width: 20%;
+    width: 15%;
     min-width: 300px;
     display: flex;
     flex-direction: row;
@@ -362,6 +366,7 @@ svg:hover {
     margin: auto 0;
     justify-self: end;
     margin-bottom: 2% !important;
+    padding-left: 2%;
 }
 
 .heart {
@@ -389,6 +394,7 @@ svg:hover {
 
 .box-menu {
     width: 100%;
+    border-radius: 20px;
 }
 
 .green-icon {
@@ -401,6 +407,11 @@ svg:hover {
     display: flex;
     transition: 0.5s ease-in;
     transform: rotate(360deg);
+}
+
+.box-repas:hover > .box-menu {
+    width:85%;
+    transition:0.5s ease-in;
 }
 
 .box-repas:hover > .green {
