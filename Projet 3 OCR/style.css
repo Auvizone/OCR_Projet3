@@ -215,7 +215,7 @@ svg:hover {
 }
 
 .heart-restaurant {
-    display: flex;
+    display: block;
     align-items: center;
 }
 
@@ -241,6 +241,10 @@ svg:hover {
     margin: auto 0;
     margin-right: 10px;
 }
+
+/* .heart-restaurant:hover > .fa-heart {
+    fill: red;
+} */
 
 @media (max-width: 900px) {
     .logo {
