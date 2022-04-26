@@ -271,6 +271,27 @@ svg:hover {
 
 /* PAGE RESTAURANTS */
 
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity:0;
+    }
+    100% {
+        opacity:1
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
 .body-restaurant {
     background-color: #e2e2e2;
     display: flex;
@@ -292,6 +313,14 @@ svg:hover {
     display: flex;
     justify-content: space-around;
     width: 20%;
+}
+
+.meal-type {
+    text-align: center;
+}
+
+.underline {
+    margin: 0 auto;
 }
 
 .box-menu {
@@ -426,6 +455,24 @@ svg:hover {
 .box-repas:hover > .text-description {
     transition: 0.5s ease-in;
     width: 50%;
+}
+
+.spinner {
+    margin: auto;
+    animation: 1s 0s linear spin;
+    animation-iteration-count: 3;
+}
+
+.timing1 {
+    animation: 4s ease-in 0s FadeIn;
+}
+
+.timing2 {
+    animation: 4.5s ease-in 0s FadeIn;
+}
+
+.timing3 {
+    animation: 5s ease-in 0s FadeIn;
 }
 
 
