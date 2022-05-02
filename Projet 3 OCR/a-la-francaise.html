@@ -10,34 +10,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/04ed5bdc1f.js" crossorigin="anonymous"></script>
-    <title>A la francaise - Restaurant</title>
+    <script src="https://kit.fontawesome.com/90001d5819.js" crossorigin="anonymous"></script>    <title>La palette du goût - Restaurant</title>
 </head>
 <header class="header">
+    <a href="http://127.0.0.1:5500/"><i class="fa-solid fa-arrow-left arrow-return"></i></a>
     <img src="./images/logo/ohmyfood.png" alt="logo_ohmyfood" class="logo">
 </header>
 
 <body>
     <div class="body-restaurant">
-        <div class="bckg-image la-francaise">
+        <div class="bckg-image">
+            <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="restaurant-image" alt="">
         </div>
         <div class="nom-restaurant flex-row">
-            <h1 class="shrikhand">A la francaise</h1>
-            <div class="heart-restaurant"><i class="heart far fa-heart"></i></div>
+                <h1 class="shrikhand restaurant-title">A la francaise</h1>
+                <div class="heart-restaurant"><i class="fa-solid fa-heart"></i></div>
         </div>
+        <div class="spinner spinner-animation"><i class="fa-solid fa-spinner"></i></div>
         <div class="box-menu">
             <div class="box-choice">
-                <div class="titre-menu">
-                    <p class="no-margin">ENTREES</p>
-                    <div class="underline"></div>
+                <div class="titre-menu flex-column">
+                    <p class="no-margin timing1">ENTREES</p>
+                    <div class="underline timing2"></div>
                 </div>
 
-                <div class="box-repas flex-row">
+                <div class="box-repas timing1 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
                                 <p class="text-description top-desc bold">Tartare de poulpe acidulé</p>
-                                <p class="text-description">Aux zests d'orange</p>
+                                <p class="text-description">Aux zestes d'orange</p>
                             </div>
                             <p class="price">25€</p>
                         </div>
@@ -46,13 +48,13 @@
                         <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="box-repas flex-row">
+                <div class="box-repas timing2 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
                                 <p class="text-description top-desc bold">Velouté de légumes d'antan</p>
                                 <p class="text-description">Carotte, panais, topinambour</p>
-                            </div>
+                                </div>
                             <p class="price">35€</p>
                         </div>
                     </div>
@@ -60,7 +62,7 @@
                         <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="box-repas flex-row">
+                <div class="box-repas timing3 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
@@ -78,11 +80,11 @@
 
             <div class="box-choice">
                 <div class="titre-menu">
-                    <p class="no-margin">PLATS</p>
-                    <div class="underline"></div>
+                    <p class="no-margin timing1">PLATS</p>
+                    <div class="underline timing2"></div>
                 </div>
 
-                <div class="box-repas flex-row">
+                <div class="box-repas timing1 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
@@ -96,12 +98,12 @@
                         <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="box-repas flex-row">
+                <div class="box-repas timing2 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
                                 <p class="text-description top-desc bold">Magret de canard</p>
-                                <p class="text-description">Et parmentier de pommes de terres</p>
+                                <p class="text-description">Et parmentier de pommes de terre</p>
                             </div>
                             <p class="price">35€</p>
                         </div>
@@ -110,12 +112,12 @@
                         <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="box-repas flex-row">
+                <div class="box-repas timing3 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
-                                <p class="text-description top-desc bold">Pigeonneau d'Ille-et-Vilaine</p>
-                                <p class="text-description">Sur son lit de gnoccis aux légumes</p>
+                                <p class="text-description top-desc bold">Pigeonneau d’Ille-et-Vilaine</p>
+                                <p class="text-description">Sur son lit de gnocchis aux légumes</p>
                             </div>
                             <p class="price">44€</p>
                         </div>
@@ -128,15 +130,15 @@
 
             <div class="box-choice">
                 <div class="titre-menu">
-                    <p class="no-margin">DESSERTS</p>
-                    <div class="underline"></div>
+                    <p class="no-margin timing1">DESSERTS</p>
+                    <div class="underline timing2"></div>
                 </div>
 
-                <div class="box-repas flex-row">
+                <div class="box-repas timing1 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
-                                <p class="text-description top-desc bold">Pétales de violettes</p>
+                                <p class="text-description top-desc bold">Pétales de violettes glacés</p>
                                 <p class="text-description">Et purée de noisettes</p>
                             </div>
                             <p class="price">18€</p>
@@ -146,7 +148,7 @@
                         <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="box-repas flex-row">
+                <div class="box-repas timing2 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
@@ -160,12 +162,12 @@
                         <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="box-repas flex-row">
+                <div class="box-repas timing3 flex-row">
                     <div class="box-menu">
                         <div class="txt-repas">
                             <div class="flex-column box-description">
                                 <p class="text-description top-desc bold">Millefeuille croustillant</p>
-                                <p class="text-description">Myrtilles et pâte d'amande</p>
+                                <p class="text-description">Myrtilles et pâte d’amande</p>
                             </div>
                             <p class="price">23€</p>
                         </div>
@@ -177,12 +179,12 @@
             </div>
 
         </div>
-        <button class="btn-commander">Commander</button>
+        <button class="btn-explorer timing3">Commander</button>
     </div>
 </body>
 <footer class="footer">
     <div class="box-footer">
-        <img src="./images/logo/ohmyfood.png" alt="logo_ohmyfood" class="logo">
+        <img src="./images/logo/ohmyfood-blanc.png" alt="logo_ohmyfood" class="logo">
         <div class="txt-footer">
             <i class="icon fas fa-utensils"></i>
             <p>Proposer un restaurant</p>

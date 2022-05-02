@@ -10,187 +10,205 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/04ed5bdc1f.js" crossorigin="anonymous"></script>
-    <title>La note enchantée - Restaurant</title>
+    <script src="https://kit.fontawesome.com/90001d5819.js" crossorigin="anonymous"></script>    <title>La palette du goût - Restaurant</title>
 </head>
-<header>
-    <img class="logo margin-auto" src="./../Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="">
+<header class="header">
+    <a href="http://127.0.0.1:5500/"><i class="fa-solid fa-arrow-left arrow-return"></i></a>
+    <img src="./images/logo/ohmyfood.png" alt="logo_ohmyfood" class="logo">
 </header>
 
 <body>
-
-    <div class="img-francaise"></div>
-
-    <div class="bloc-menu">
-        <div class="name-rest flex-row">
-            <p>LA NOTE ENCHANTEE</p>
-            <div class="heart-rest"><i class="far fa-heart"></i></div>
-            
+    <div class="body-restaurant">
+        <div class="bckg-image">
+            <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="restaurant-image" alt="">
         </div>
-        <div class="box-choice">
-            <p>ENTREES</p>
-
-            <div class="box-meal flex-row test1">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Ravioles de foie gras</p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Accompagnés de leur crème à la truffe</p>
-                        <p class="margin-10 bold">25€</p>
-                    </div>
-                </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
-            <div class="box-meal flex-row test2">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Caviar osciètre</p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Sur blini à la farine de blé noir
-                        </p>
-                        <p class="margin-10 bold">35€</p>
-                    </div>
-                </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
-            <div class="box-meal flex-row test3">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Homard et espuma de potiron
-                    </p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Mariné aux zestes d'orange
-                        </p>
-                        <p class="margin-10 bold">20€</p>
-                    </div>
-                </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
-            <div class="box-meal flex-row test3">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Foie gras de canard cuit entier
-
-                    </p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Confiture de figue et pain toasté
-
-                        </p>
-                        <p class="margin-10 bold">35€</p>
-                    </div>
-                </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
+        <div class="nom-restaurant flex-row">
+                <h1 class="shrikhand restaurant-title">La note enchantée</h1>
+                <div class="heart-restaurant"><i class="fa-solid fa-heart"></i></div>
         </div>
+        <div class="spinner spinner-animation"><i class="fa-solid fa-spinner"></i></div>
+        <div class="box-menu">
+            <div class="box-choice">
+                <div class="titre-menu flex-column">
+                    <p class="no-margin timing1">ENTREES</p>
+                    <div class="underline timing2"></div>
+                </div>
 
-        <div class="box-choice">
-            <p>PLATS</p>
+                <div class="box-repas timing1 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Ravioles de foie gras </p>
+                                <p class="text-description">Accompagnés de leur crème à la truffe</p>
+                            </div>
+                            <p class="price">25€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
+                    </div>
+                </div>
+                <div class="box-repas timing2 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Caviar osciètre </p>
+                                <p class="text-description">Sur blini à la farine de blé noir</p>
+                                </div>
+                            <p class="price">35€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
+                    </div>
+                </div>
+                <div class="box-repas timing3 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Homard et espuma de potiron</p>
+                                <p class="text-description">Mariné aux zestes d'orange</p>
+                            </div>
+                            <p class="price">20€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
+                    </div>
+                </div>
+                <div class="box-repas timing3 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Foie gras de canard cuit entier</p>
+                                <p class="text-description">Confiture de figue et pain toasté</p>
+                            </div>
+                            <p class="price">35€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
+                    </div>
+                </div>
+            </div>
 
-            <div class="box-meal flex-row">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Noix de coquilles Saint-Jacques
-                    </p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Sur lit de purée de céleri-rave
-                        </p>
-                        <p class="margin-10 bold">40€</p>
+            <div class="box-choice">
+                <div class="titre-menu">
+                    <p class="no-margin timing1">PLATS</p>
+                    <div class="underline timing2"></div>
+                </div>
+
+                <div class="box-repas timing1 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Noix de coquilles Saint-Jacques</p>
+                                <p class="text-description">Sur lit de purée de céleri-rave</p>
+                            </div>
+                            <p class="price">40€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
-            <div class="box-meal flex-row">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Langoustine poêlée
-                    </p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Purée de patate douce
-                        </p>
-                        <p class="margin-10 bold">35€</p>
+                <div class="box-repas timing2 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Langoustine poêlée</p>
+                                <p class="text-description">Purée de patate douce</p>
+                            </div>
+                            <p class="price">35€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
-            <div class="box-meal flex-row">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Mijoté de queue de boeuf 
-                    </p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Et riz sauvage aux zestes de citron
-                        </p>
-                        <p class="margin-10 bold">44€</p>
+                <div class="box-repas timing3 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Mijoté de queue de boeuf</p>
+                                <p class="text-description">Et riz sauvage aux zestes de citron</p>
+                            </div>
+                            <p class="price">44€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
                     </div>
                 </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
+            </div>
+
+            <div class="box-choice">
+                <div class="titre-menu">
+                    <p class="no-margin timing1">DESSERTS</p>
+                    <div class="underline timing2"></div>
+                </div>
+
+                <div class="box-repas timing1 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Macaron noisette et chocolat</p>
+                                <p class="text-description">Glace au caramel brun et sel de Guérande</p>
+                            </div>
+                            <p class="price">18€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
+                    </div>
+                </div>
+                <div class="box-repas timing2 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Baba au rhum revisité </p>
+                                <p class="text-description">Avec son coulis de citron</p>
+                            </div>
+                            <p class="price">22€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
+                    </div>
+                </div>
+                <div class="box-repas timing3 flex-row">
+                    <div class="box-menu">
+                        <div class="txt-repas">
+                            <div class="flex-column box-description">
+                                <p class="text-description top-desc bold">Tarte au citron meringuée</p>
+                                <p class="text-description">Déstructurée</p>
+                            </div>
+                            <p class="price">23€</p>
+                        </div>
+                    </div>
+                    <div class="green">
+                        <i class="green-icon fas fa-check-circle"></i>
+                    </div>
                 </div>
             </div>
+
         </div>
-
-        <div class="box-choice">
-            <p>DESSERTS</p>
-
-            <div class="box-meal flex-row">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Macaron noisette et chocolat
-                    </p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Glace au caramel brun et sel de Guérande
-                        </p>
-                        <p class="margin-10 bold">18€</p>
-                    </div>
-                </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
-            <div class="box-meal flex-row">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Baba au rhum revisité 
-                    </p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Avec son coulis de citron
-                        </p>
-                        <p class="margin-10 bold">22€</p>
-                    </div>
-                </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
-            <div class="box-meal flex-row">
-                <div class="meal-part">
-                    <p class="margin-10 bold ellipsis">Tarte au citron meringuée 
-                    </p>
-                    <div class="flex-row box-price">
-                        <p class="margin-10 ellipsis">Déstructurée
-                        </p>
-                        <p class="margin-10 bold">23€</p>
-                    </div>
-                </div>
-                <div class="check">
-                    <div class="logo-spin"><i class="fas fa-check-circle"></i></div>
-                </div>
-            </div>
-        </div>
-
+        <button class="btn-explorer timing3">Commander</button>
     </div>
-
 </body>
-<footer>
-    <img class="logo-footer" src="../Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="">
-    <div class="footer-box flex-column margin-auto">
-        <div class="footer-text"><i class="fas fa-utensils"></i> Proposer un restaurant</div>
-        <div class="footer-text"><i class="fas fa-hands-helping"></i> Devenir partenaire</div>
-        <p class="no-margin">Mentions légales</p>
-        <p class="no-margin">Contact</p>
+<footer class="footer">
+    <div class="box-footer">
+        <img src="./images/logo/ohmyfood-blanc.png" alt="logo_ohmyfood" class="logo">
+        <div class="txt-footer">
+            <i class="icon fas fa-utensils"></i>
+            <p>Proposer un restaurant</p>
+        </div>
+        <div class="txt-footer">
+            <i class="icon fas fa-hands-helping"></i>
+            <p>Devenir partenaire</p>
+        </div>
+        <p>Mentions légales</p>
+        <p>Contact</p>
     </div>
 </footer>
 
