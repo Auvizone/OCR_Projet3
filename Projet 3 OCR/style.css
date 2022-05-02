@@ -30,7 +30,6 @@
         opacity: 1;
     }
 }
-
 .shrikhand {
     font-family: Shrikhand;
 }
@@ -243,7 +242,6 @@ svg:hover {
     background-color: #1f1f1f;
     color: white;
     margin: 0px;
-    padding-bottom: 20px;
 }
 
 .txt-footer {
@@ -255,10 +253,6 @@ svg:hover {
 .box-footer {
     overflow: hidden;
     margin-left: 10%;
-}
-
-#contact {
-    color: white;
 }
 
 .icon {
@@ -378,12 +372,12 @@ svg:hover {
 
 .box-choice {
     width: 60%;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
 }
 
 .box-repas {
-    cursor: pointer;
     background-color: white;
     border-radius: 20px;
     height: 60px;
