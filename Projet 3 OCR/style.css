@@ -40,12 +40,20 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
     font-size: 30px;
+=======
+    font-size: 28px;
+>>>>>>> 8f4db8bb94d5f9370ac10cec1f1014c2e1058ad3
 }
 
 h2 {
     font-size: 20px;
+<<<<<<< HEAD
     font-weight:lighter;
+=======
+    font-weight: lighter;
+>>>>>>> 8f4db8bb94d5f9370ac10cec1f1014c2e1058ad3
 }
 
 a {
@@ -55,7 +63,7 @@ a {
 
 .logo {
     width: 15%;
-    margin: 10px;
+    margin: 20px auto;
 }
 
 .logo-footer {
@@ -137,7 +145,11 @@ svg:hover {
     width: 250px;
     padding: 20px;
     border-radius: 30px;
+<<<<<<< HEAD
     font-size: 19px;
+=======
+    font-size: 18px;
+>>>>>>> 8f4db8bb94d5f9370ac10cec1f1014c2e1058ad3
     border: none;
     color: white;
     background: rgb(255,121,218);
@@ -153,6 +165,7 @@ svg:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 0 5%;
 }
 
 .box-choix {
@@ -161,9 +174,14 @@ svg:hover {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .choix {
+<<<<<<< HEAD
+=======
+    width: 15%;
+>>>>>>> 8f4db8bb94d5f9370ac10cec1f1014c2e1058ad3
     min-width: 300px;
     display: flex;
     flex-direction: row;
@@ -233,7 +251,7 @@ svg:hover {
 }
 
 .heart-restaurant {
-    display: flex;
+    display: block;
     align-items: center;
 }
 
@@ -260,12 +278,18 @@ svg:hover {
     margin-right: 10px;
 }
 
+<<<<<<< HEAD
 .arrow-return {
     position: absolute;
     top: 25px;
     left: 20px;
     font-size: 20px;
 }
+=======
+/* .heart-restaurant:hover > .fa-heart {
+    fill: red;
+} */
+>>>>>>> 8f4db8bb94d5f9370ac10cec1f1014c2e1058ad3
 
 @media (max-width: 900px) {
     .logo {
@@ -304,6 +328,7 @@ svg:hover {
 
 /* PAGE RESTAURANTS */
 
+<<<<<<< HEAD
 .spinner {
     margin: auto;
     animation: 1s 0s linear spin;
@@ -325,6 +350,27 @@ svg:hover {
 
 .timing3 {
     animation: 5s ease-in 0s FadeIn;
+=======
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity:0;
+    }
+    100% {
+        opacity:1
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+>>>>>>> 8f4db8bb94d5f9370ac10cec1f1014c2e1058ad3
 }
 
 .body-restaurant {
@@ -363,6 +409,14 @@ svg:hover {
 
 .restaurant-title {
     padding-right: 20px;
+}
+
+.meal-type {
+    text-align: center;
+}
+
+.underline {
+    margin: 0 auto;
 }
 
 .box-menu {
@@ -441,6 +495,7 @@ svg:hover {
     margin: auto 0;
     justify-self: end;
     margin-bottom: 2% !important;
+    padding-left: 2%;
 }
 
 .heart {
@@ -468,9 +523,13 @@ svg:hover {
 
 .box-menu {
     width: 100%;
+<<<<<<< HEAD
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+=======
+    border-radius: 20px;
+>>>>>>> 8f4db8bb94d5f9370ac10cec1f1014c2e1058ad3
 }
 
 .green-icon {
@@ -486,6 +545,11 @@ svg:hover {
     transform: rotate(360deg);
 }
 
+.box-repas:hover > .box-menu {
+    width:85%;
+    transition:0.5s ease-in;
+}
+
 .box-repas:hover > .green {
     transition: 0.5s ease-in;
     width: 20%;
@@ -494,6 +558,24 @@ svg:hover {
 .box-repas:hover > .text-description {
     transition: 0.5s ease-in;
     width: 50%;
+}
+
+.spinner {
+    margin: auto;
+    animation: 1s 0s linear spin;
+    animation-iteration-count: 3;
+}
+
+.timing1 {
+    animation: 4s ease-in 0s FadeIn;
+}
+
+.timing2 {
+    animation: 4.5s ease-in 0s FadeIn;
+}
+
+.timing3 {
+    animation: 5s ease-in 0s FadeIn;
 }
 
 
