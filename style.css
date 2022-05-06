@@ -399,7 +399,6 @@ svg:hover {
 
 .text-description {
     margin: 0px;
-    white-space: nowrap;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -483,9 +482,9 @@ svg:hover {
     width: 20%;
 }
 
-.box-repas:hover > .text-description {
+.box-repas:hover > .box-menu {
     transition: 0.5s ease-in;
-    width: 50%;
+    width: 80%;
 }
 
 
