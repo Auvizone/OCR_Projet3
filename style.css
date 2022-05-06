@@ -76,7 +76,6 @@ svg:hover {
 
 .fa-heart:hover {
     transition: 0.5s ease-in;
-    
     color: #ed1cd8
 }
 
@@ -144,8 +143,6 @@ svg:hover {
     background: linear-gradient(135deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     margin-bottom: 50px;
     box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
-    -webkit-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
-    -moz-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
 }
 
 .fonctionnement {
@@ -184,7 +181,7 @@ svg:hover {
 .nb-fonctionnement {
     padding: 5px 10px;
     border-radius: 30px;
-    background-color: #9356DC ;
+    background-color: #9356DC;
     color: white;
     margin-left: -12px;
 }
@@ -207,7 +204,6 @@ svg:hover {
     height: 100%;
     width: 20%;
     border-radius: 20px;
-    padding: 5px;
     background-color: white;
     margin: 20px;
     padding: 0px;
@@ -310,10 +306,6 @@ svg:hover {
     opacity: 0;
 }
 
-.spinner::after {
-    animation: 1s 3s linear fadeOut;
-}
-
 .timing1 {
     animation: 4s ease-in 0s FadeIn;
 }
@@ -379,14 +371,13 @@ svg:hover {
 }
 
 .box-repas {
+    cursor: pointer;
     background-color: white;
     border-radius: 20px;
     height: 60px;
     width: 70%;
     margin: 10px auto;
     box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
-    -webkit-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
-    -moz-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
 }
 
 .txt-repas {
@@ -512,7 +503,7 @@ svg:hover {
     }
 
     .titre-menu {
-        margin: 0 5%;
+        margin: 20px 5%;
         width: 15%;
     }
 
