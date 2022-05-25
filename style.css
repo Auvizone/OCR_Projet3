@@ -12,11 +12,23 @@
     0% {
         opacity: 0;
     }
-    75% {
-        opacity:0;
-    }
     100% {
         opacity:1
+    }
+}
+
+@keyframes FadeOutHome {
+    0% {
+        opacity: 1;
+        height:100vh;
+    }
+    60% {
+        opacity: 1;
+        height:100vh;
+    }
+    100% {
+        opacity: 0;
+        height:100vh;
     }
 }
 
@@ -149,7 +161,6 @@ svg:hover {
     box-shadow: 5px 10px 9px 0px rgba(0,0,0,0.50);
 }
 
-
 .fonctionnement {
     display: flex;
     flex-direction: column;
@@ -181,6 +192,26 @@ svg:hover {
     margin-left: 25px;
     display: flex;
     flex-direction: row;
+}
+
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    animation: 1s 0s linear spin;
+    animation-iteration-count: 3;
+    opacity: 0;
+}
+
+.box-spinner {
+    opacity: 0;
+    height: 00vh;
+    width: 100vw;
+    background-color: #d3d1d1;
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    animation: 5s 0s linear FadeOutHome
 }
 
 .nb-fonctionnement {
@@ -318,23 +349,18 @@ svg:hover {
 
 /* PAGE RESTAURANTS */
 
-.spinner {
-    margin: auto;
-    animation: 1s 0s linear spin;
-    animation-iteration-count: 3;
-    opacity: 0;
-}
+
 
 .timing1 {
-    animation: 4s ease-in 0s FadeIn;
+    animation: 0.5s ease-in 0s FadeIn;
 }
 
 .timing2 {
-    animation: 4.5s ease-in 0s FadeIn;
+    animation: 0.75s ease-in 0s FadeIn;
 }
 
 .timing3 {
-    animation: 5s ease-in 0s FadeIn;
+    animation: 1s ease-in 0s FadeIn;
 }
 
 .arrow-return {
