@@ -139,11 +139,16 @@ svg:hover {
     font-size: 19px;
     border: none;
     color: white;
-    background: rgb(255,121,218);
     background: linear-gradient(135deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     margin-bottom: 50px;
     box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
 }
+
+.btn-explorer:hover {
+    background: linear-gradient(135deg, rgb(252, 161, 226) 0%, rgb(166, 124, 218) 100%);
+    box-shadow: 5px 10px 9px 0px rgba(0,0,0,0.50);
+}
+
 
 .fonctionnement {
     display: flex;
@@ -261,6 +266,20 @@ svg:hover {
 
 #contact {
     color: white;
+}
+
+.container {
+    position: relative;
+}
+
+.nouveau {
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    padding: 10px 20px;
+    background-color: #99E2D0;
+    color:#369c83;
+    border-radius: 5px;
 }
 
 @media (max-width: 900px) {
@@ -418,13 +437,14 @@ svg:hover {
     border-radius: 30px;
     border: none;
     color: white;
-    background: rgb(255,121,218);
     background: linear-gradient(135deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     margin-bottom: 50px;
     box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
     -webkit-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.50);
 }
+
+
 
 .price {
     font-weight: bold;
