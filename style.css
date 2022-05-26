@@ -201,11 +201,12 @@ svg:hover {
     animation: 1s 0s linear spin;
     animation-iteration-count: 3;
     opacity: 0;
+    color:#369c83;
 }
 
 .box-spinner {
     opacity: 0;
-    height: 00vh;
+    height: 0vh;
     width: 100vw;
     background-color: #d3d1d1;
     position: fixed;
